@@ -1,0 +1,21 @@
+Sure, here are some examples of decomposition patterns in microservices architecture:
+
+* **Strangler pattern:** This pattern allows you to gradually migrate an existing monolithic application to a microservices architecture. The idea is to start by creating a new microservice that provides a subset of the functionality of the monolithic application. Then, you can gradually decommission the old functionality from the monolithic application and move it to the new microservice.
+* **Sidecar pattern:** This pattern adds functionality to a microservice by attaching a sidecar container to it. The sidecar container can provide features such as logging, monitoring, or security. This can be helpful for decoupling the microservice from the concerns of these features.
+* **Service mesh:** A service mesh is a dedicated infrastructure layer that provides features such as service discovery, load balancing, and fault tolerance. This can help to simplify the development and operation of microservices.
+* **Decomposition by subdomain:** This pattern decomposes an application into microservices based on the subdomains of the business domain. For example, an e-commerce application might be decomposed into microservices for the product catalog, the order management system, and the shipping system.
+* **Decomposition by business capability:** This pattern decomposes an application into microservices based on the business capabilities that the application provides. For example, an e-commerce application might be decomposed into microservices for order processing, payment processing, and shipping.
+
+These are just a few of the many decomposition patterns that can be used in microservices architecture. The specific pattern that you use will depend on the specific requirements of your application.
+
+Here is a table that summarizes the key features of these decomposition patterns:
+
+| Pattern | Description | Key features |
+|---|---|---|
+| Strangler pattern | Gradually migrates an existing monolithic application to a microservices architecture. | The new microservice is gradually added with new functionality, while the old functionality is gradually decommissioned. |
+| Sidecar pattern | Adds functionality to a microservice by attaching a sidecar container to it. | The sidecar container can provide features such as logging, monitoring, or security. This can help to decouple the microservice from the concerns of these features. |
+| Service mesh | Dedicated infrastructure layer that provides features such as service discovery, load balancing, and fault tolerance. | This can help to simplify the development and operation of microservices. |
+| Decomposition by subdomain | Decomposes an application into microservices based on the subdomains of the business domain. | This can help to improve the modularity and scalability of the application. |
+| Decomposition by business capability | Decomposes an application into microservices based on the business capabilities that the application provides. | This can help to improve the maintainability and flexibility of the application. |
+
+I hope this helps!
