@@ -1,0 +1,8 @@
+Decomposition patterns in microservices are strategies for breaking down a monolithic application into smaller, independent services that can be developed, deployed, and managed independently. Here are some examples of decomposition patterns and their use cases:
+
+1. **Strangler Pattern**: This pattern involves incrementally migrating a legacy system by gradually replacing specific pieces of functionality with new applications and services. As features from the legacy system are replaced, the new system eventually replaces all of the old system's features, strangling the old system and allowing you to decommission it ¹².
+2. **Sidecar Pattern**: This pattern involves deploying components of an application into a separate process or container to provide isolation and encapsulation. This pattern can also enable applications to be composed of heterogeneous components and technologies ⁹ [^10^].
+3. **Service Mesh**: A service mesh is an infrastructure layer in your application that facilitates communication between services. Service meshes provide capabilities like traffic management, resiliency, policy, security, strong identity, and observability to your workloads ⁶⁷⁸.
+4. **Decompose by Subdomain**: In this pattern, you decompose an application into microservices based on subdomains. Each subdomain represents a specific business capability or domain area ⁴.
+5. **Decompose by Business Capability**: In this pattern, you decompose an application into microservices based on business capabilities. Each microservice implements a small set of strongly related functions that correspond to a specific business capability ⁴.
+
