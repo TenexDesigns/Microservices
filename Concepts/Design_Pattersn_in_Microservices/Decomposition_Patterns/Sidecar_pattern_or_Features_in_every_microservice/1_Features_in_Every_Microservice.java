@@ -10,9 +10,11 @@ In a microservices architecture, there are several features that you should cons
 
 5. **Proxy to Remote Service**: A proxy is a service that acts as an intermediary between a client and a remote service. You can use tools like **Netflix Zuul**, **NGINX**, or **HAProxy** to implement a proxy in your microservices ⁵.
 
-These are some of the common features that you should consider when designing a microservices architecture. However, there are many more features that you may need to consider depending on your specific requirements.
+These are some of the common features that you should consider when designing a microservices architecture.
+  However, there are many more features that you may need to consider depending on your specific requirements.
 
-Spring Boot provides many purpose-built features that make it easy to build and run your microservices in production at scale ¹. Spring Boot's embedded server model allows you to start small and iterate fast, while Spring Cloud provides additional features for building resilient microservices, such as service discovery, load-balancing, circuit-breaking, distributed tracing, and monitoring ¹. 
+Spring Boot provides many purpose-built features that make it easy to build and run your microservices in production at scale ¹
+  Spring Boot's embedded server model allows you to start small and iterate fast, while Spring Cloud provides additional features for building resilient microservices, such as service discovery, load-balancing, circuit-breaking, distributed tracing, and monitoring ¹. 
 
 To implement these features in Spring Boot, you can use various tools and techniques such as:
 - For logging: Log4j, Logback, or SLF4J.
