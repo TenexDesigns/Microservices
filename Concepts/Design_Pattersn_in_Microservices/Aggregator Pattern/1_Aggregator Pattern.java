@@ -1,10 +1,15 @@
-The **Aggregator pattern** is a microservice design pattern that describes a service that gets a request, then makes several requests to different services, combines the results, and then responds to the initial request ¹. 
+The **Aggregator pattern** is a microservice design pattern that describes a service that gets a request, then makes several requests to different services, 
+  combines the results, and then responds to the initial request ¹. 
 
-To implement the Aggregator pattern in Spring Boot microservices, you can create a new service that consumes multiple microservices and returns the combined results to the client. For example, if you have four different microservices that provide personal information, leave information, employee performance information, and allocation information, respectively, you can create a new service that consumes these four services and returns the combined results to the client ¹.
+To implement the Aggregator pattern in Spring Boot microservices, you can create a new service that consumes multiple microservices and returns the combined
+  results to the client. For example, if you have four different microservices that provide personal information, leave information, employee performance information,
+  and allocation information, respectively, you can create a new service that consumes these four services and returns the combined results to the client ¹.
 
-The **Branch pattern** is another microservice design pattern that emerges as an evolutionary attempt by the Aggregator and Chained patterns to better serve the business layer of the application. It allows you to identify, classify, and understand the characteristics of this pattern ⁸.
+The **Branch pattern** is another microservice design pattern that emerges as an evolutionary attempt by the Aggregator and Chained patterns to better serve 
+  the business layer of the application. It allows you to identify, classify, and understand the characteristics of this pattern ⁸.
 
-The **Chained pattern** is a microservice design pattern that describes a service that gets a request, then makes a request to another service based on the response of the first service. The response of the second service is then returned to the initial request ⁶.
+The **Chained pattern** is a microservice design pattern that describes a service that gets a request, then makes a request to another service based on the response of
+  the first service. The response of the second service is then returned to the initial request ⁶.
 
 I hope this helps!
 
