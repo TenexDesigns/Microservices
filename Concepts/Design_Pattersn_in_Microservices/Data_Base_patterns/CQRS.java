@@ -55,11 +55,15 @@ I hope this helps!
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-  CQRS (Command Query Responsibility Segregation) is an architectural pattern that separates the read and write operations of a system into separate models. The pattern is designed to address the challenges of scalability, performance, and complexity that arise in systems with complex data models .
+  CQRS (Command Query Responsibility Segregation) is an architectural pattern that separates the read and write operations of a system into separate models. 
+  The pattern is designed to address the challenges of scalability, performance, and complexity that arise in systems with complex data models .
 
-In a shopping application, the Order Service and Product Service could be separated into two different models. The Order Service would be responsible for handling write operations such as creating, updating, and deleting orders. The Product Service would be responsible for handling read operations such as retrieving product information. By separating the read and write operations into separate models, the system can be scaled more easily and can handle more complex data models.
+In a shopping application, the Order Service and Product Service could be separated into two different models. The Order Service would be responsible for handling 
+  write operations such as creating, updating, and deleting orders. The Product Service would be responsible for handling read operations such as retrieving product
+  information. By separating the read and write operations into separate models, the system can be scaled more easily and can handle more complex data models.
 
-One of the challenges of using CQRS is that it can add additional complexity to a system. However, this complexity can be managed by using tools such as event sourcing and API composition . 
+One of the challenges of using CQRS is that it can add additional complexity to a system. However, this complexity can be managed by using 
+  tools such as event sourcing and API composition . 
 
 Some of the pros of using CQRS include:
 - **Improved performance**: CQRS can improve performance by allowing read and write operations to be scaled independently.
