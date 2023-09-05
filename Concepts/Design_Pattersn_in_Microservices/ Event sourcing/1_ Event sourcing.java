@@ -1,4 +1,5 @@
-Event sourcing is a design pattern that records all changes to the state of an application as a sequence of events. These events can then be used to reconstruct the state of the application at any point in time.
+Event sourcing is a design pattern that records all changes to the state of an application as a sequence of events.
+  These events can then be used to reconstruct the state of the application at any point in time.
 
 Event sourcing is often used in microservices architectures because it can improve the resilience and scalability of an application.
 
@@ -53,9 +54,12 @@ I hope this helps!
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-  Event sourcing is a pattern used in distributed systems that involves storing the state of an application as a sequence of events. Each event represents a change in the state of the application and is stored in an event log. The event log can be used to reconstruct the state of the application at any point in time.
+  Event sourcing is a pattern used in distributed systems that involves storing the state of an application as a sequence of events.
+  Each event represents a change in the state of the application and is stored in an event log. 
+  The event log can be used to reconstruct the state of the application at any point in time.
 
-Event sourcing is often used in systems that require high scalability and performance. It is well-suited for systems that require strong data consistency guarantees and need to handle large volumes of data.
+Event sourcing is often used in systems that require high scalability and performance.
+  It is well-suited for systems that require strong data consistency guarantees and need to handle large volumes of data.
 
 To use event sourcing in a Spring Boot microservice, you can use various tools and dependencies such as:
 - **Axon Framework**: Axon Framework is a Java-based framework that provides support for implementing event sourcing in Spring Boot applications .
