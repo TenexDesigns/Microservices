@@ -2,7 +2,8 @@ To create a Docker image for your Spring Boot microservice, you'll need to creat
 
 **Step 1: Create a Dockerfile**
 
-Create a file named `Dockerfile` (without any file extension) in the root directory of your "review" microservice project. This file defines how the Docker image for your application should be built.
+Create a file named `Dockerfile` (without any file extension) in the root directory of your "review" microservice project. 
+  This file defines how the Docker image for your application should be built.
 
 Here's an example of a Dockerfile for a Spring Boot application:
 
